@@ -2,6 +2,7 @@
 A tool made to remove duplicate lines (also removes newlines)
 
 ## Usage
+Dedupe file
 ```
-./duplicate_line_remover [FILE]
+cat [FILE] | ./duplicate_line_remover
 ```
