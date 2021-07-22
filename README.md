@@ -1,8 +1,13 @@
 # duplicate_line_remover
-A tool made to remove duplicate lines (also removes newlines)
+A tool made to remove duplicate lines (also removes newlines), keeps the order while removing every duplicate line unlike other tools.
 
 ## Usage
-Dedupe file
+Dedupe file contents into another
 ```
-cat [FILE] | ./duplicate_line_remover
+./duplicate_line_remover [file_path] [output_path]
+```
+
+Read deduplicated file to terminal
+```
+cat [file_path] | ./duplicate_line_remover
 ```
